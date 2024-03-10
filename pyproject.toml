@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "words-on-anime-girls"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+praw = "^7.7.1"
+pytesseract = "^0.3.10"
+pillow = "^10.2.0"
+requests = "^2.31.0"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
